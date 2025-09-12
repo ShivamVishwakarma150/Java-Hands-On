@@ -91,7 +91,6 @@ public class _05_Practice_ForkJoinPool {
         // ✅ ForkJoinTask ke liye invokeAll()
         ForkJoinTask.invokeAll(log1, log2);
 
-
         pool.shutdown();
 
     }
